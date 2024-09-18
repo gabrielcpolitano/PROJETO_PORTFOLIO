@@ -34,7 +34,7 @@ const HeroSection = () => {
             Não tenho rede social então desenvolvi esse web-site como um perfil social, para contar minhas histórias e aventuras, seja bem-vinda(o) a elas.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-orange-500 via-red-500 to-black hover:bg-slate-200 text-black">Portifolio</button>
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-orange-500 via-red-500 to-black hover:bg-slate-200 text-black">Trabalhos</button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-500 via-red-500 to-black hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
             </button>
