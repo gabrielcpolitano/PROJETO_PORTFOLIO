@@ -28,8 +28,8 @@ const TAB_DATA = [
     )
   },
   {
-    title: "Certificado",
-    id: "certificado",
+    title: "Certificados",
+    id: "certificados",
     content: (
       <ul className="list-disc pl-2">
         <li>Algoritmos</li>
@@ -93,11 +93,11 @@ const AboutSection = () => {
             Viagens{" "}
           </TabButton>
           <TabButton
-            selecTab={() => handleTabChange("certificado")}
-            active={tab === "certificado"}
+            selecTab={() => handleTabChange("certificados")}
+            active={tab === "certificados"}
           > 
             {" "}
-            Certificado{" "}
+            Certificados{" "}
           </TabButton>
          </div>
          <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
