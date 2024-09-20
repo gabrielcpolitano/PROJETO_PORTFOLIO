@@ -32,15 +32,15 @@ const projectsData = [
 },
 {
   id: 5,
-  title: "Pé na Estrada: Aeroporto Edition",
-  description: "Eu no Aeroporto",
+  title: "Assistindo Corrida de Piccoli Cavalli",
+  description: "Eu na Torcida",
   image: "/images/me6.jpg",
   tag: ["All", "Web"]
 },
 {
   id: 6,
-  title: "Domingo de Preguiça em Casa",
-  description: "Eu em Casa",
+  title: "Pé na Estrada: Explorando Itália",
+  description: "Eu no trem",
   image: "/images/me7.jpg",
   tag: ["All", "Web"]
 },
