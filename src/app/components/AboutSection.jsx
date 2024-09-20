@@ -86,7 +86,7 @@ const AboutSection = () => {
             active={tab === "certificados"}
           > 
             {" "}
-            Certificados{" "}
+            Certificações{" "}
           </TabButton>
          </div>
          <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
