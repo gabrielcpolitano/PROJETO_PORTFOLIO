@@ -3,6 +3,13 @@ import Navbar from "./components/Navbar.jsx"
 import AboutSection from "./components/AboutSection"
 import ProjectSection from "./components/ProjectSection.jsx"
 
+export const metadata = {
+  title: 'politano.tech',
+  icons: {
+    icon: '/images/favIcon.png',  // Caminho do seu favicon
+  }
+}
+
 export default function Home() {
   return (
       <main className="flex min-h-screen flex-col bg-black">

@@ -38,7 +38,7 @@ const Navbar = () => {
         href={"/"} 
         className="text-lg md:text-2xl text-white font-semibold"
         >
-        MY-PAGE
+        POLITANO.TECH
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
