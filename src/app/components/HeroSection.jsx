@@ -31,7 +31,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mr-3">
-          Como não uso redes sociais, criei este site para compartilhar meus conhecimentos, momentos das minhas viagens e os lugares por onde passei. Seja bem-vindo(a) a minha vida!
+          Como não uso redes sociais, criei este site para compartilhar minhas certificações, momentos das minhas viagens e os lugares por onde passei. Seja bem-vindo(a) a minha vida!
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-orange-500 via-red-500 to-black hover:bg-slate-200 text-black">Trabalhos</button>
