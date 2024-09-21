@@ -5,7 +5,6 @@ import ProjectSection from "./components/ProjectSection.jsx"
 
 export const metadata = {
   title: 'politano.tech',
-  description: 'gabriel politano page',
   icons: {
     icon: '/images/favIcon.png',  // Caminho do seu favicon
   }
