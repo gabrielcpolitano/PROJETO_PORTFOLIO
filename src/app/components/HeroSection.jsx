@@ -41,11 +41,11 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-            <Image
+          <div className = "rounded-full bg-[#FFFFFF] w-[300px] h-[250px] m-auto relative hover:bg-orange-600 ml-8 mt-5 mb-8 lg:mt-0">
+            <Image 
               src="/images/profile-pic-removebg-preview.png"
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="imagem do HERO"
+              className="-translate-x-7 -translate-y-3"
               width={300}
               height={300}
             />
