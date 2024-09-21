@@ -31,7 +31,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mr-3">
-            Não tenho rede social então desenvolvi esse web-site como um perfil social, para contar minhas histórias e aventuras, seja bem-vinda(o) a elas.
+          Como não uso redes sociais, criei este site para compartilhar meus conhecimentos, momentos das minhas viagens e os lugares por onde passei. Seja bem-vindo(a) a minha vida!
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-orange-500 via-red-500 to-black hover:bg-slate-200 text-black">Trabalhos</button>
@@ -41,11 +41,12 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className = "rounded-full bg-[#FFFFFF] w-[300px] h-[250px] m-auto relative hover:bg-orange-600 ml-8 mt-5 mb-8 lg:mt-0">
+          <div className = "rounded-full bg-[#FFFFFF] w-[300px] h-[250px] m-auto relative ml-8 mt-5 mb-8 lg:mt-0">
             <Image 
               src="/images/profile-pic-removebg-preview.png"
               alt="imagem do HERO"
-              className="-translate-x-7 -translate-y-3"
+              className="-translate-x-7 -translate-y-3 select-none"
+              draggable="false"
               width={300}
               height={300}
             />
