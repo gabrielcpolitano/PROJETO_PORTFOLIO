@@ -10,10 +10,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Comunicativo</li>
-        <li>Devleloper Front-End</li>
-        <li>Inglês - Avançado</li>
-        <li>Espanhol - Intermediário</li>
-        <li>Italiano - Intermediário</li>
+        <li>Front-End Devleloper</li>
+        <li>Espanhol - Avançado</li>
+        <li>Inglês - Intermediário</li>
+        <li>Italiano - Básico</li>
       </ul>
     )
   },
