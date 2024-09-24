@@ -34,14 +34,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Algoritmos</li>
         <li>Blockchain</li>
-        <li>Business Management & IT Services</li>
-        <li>Customer Experience Management</li>
-        <li>Cybersecurity</li>
         <li>DevOps & Agile Culture</li>
-        <li>Governança de TI</li>
-        <li>Inteligência Artificial e Computacional</li>
-        <li>Leadership and Corporate Accountability</li>
-        <li>Programação em Banco de Dados</li>
       </ul>
     )
   }
