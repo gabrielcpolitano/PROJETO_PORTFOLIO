@@ -19,14 +19,12 @@ function Hero() {
 
       <section className="Trabalhos">
         <h2 className="title">FRONT-END DEVELOPER <br/> PROJETOS</h2>
+
         <div className="projetos">
           <h3>{projeto[0].nome}</h3>
           <a className="center" href={projeto[0].link}>{projeto[0].link}</a>
         </div>
-        <div className="projetos">
-          <h3>{projeto[1].nome}</h3>
-          <a className="center" href={projeto[1].link}>{projeto[1].link}</a>
-        </div>
+        
       </section>
     </>
   )
