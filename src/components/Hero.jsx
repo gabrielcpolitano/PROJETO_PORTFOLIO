@@ -18,7 +18,7 @@ function Hero() {
       </section>
 
       <section className="Trabalhos">
-        <h2 className="title">FRONT-END DEVELOPER <br/> PROJETOS</h2>
+        <h2 className="title">DEVELOPER <br/> PROJETOS</h2>
 
         <div className="projetos">
           <h3>{projeto[0].nome}</h3>
