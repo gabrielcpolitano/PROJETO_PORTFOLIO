@@ -29,3 +29,46 @@ a:hover {
 a {
 	color: black;
 }
+
+  /* Estiliza o botão */
+  .whatsapp-button {
+    display: flex;
+    width: 250px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+}
+
+/* Animação de pulsação */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* Ícone dentro do botão */
+.whatsapp-button i {
+    margin-right: 10px;
+}
+
+/* Efeito de hover */
+.whatsapp-button:hover {
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+}
