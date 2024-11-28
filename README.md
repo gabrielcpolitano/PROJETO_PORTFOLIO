@@ -8,7 +8,7 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/FR0ST1N/TooMinimal?style=flat-square">
 </div>
 
-## Usage
+## Usage 
 * Edit the `index.hml` file
 * Change favicon `images/favicon.png`
 * Change Open Graph thumbnail `images/thumb.jpg`
