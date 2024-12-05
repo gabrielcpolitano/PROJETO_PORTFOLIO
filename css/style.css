@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jaro:opsz@6..72&display=swap');
+
 /* styles.css */
 body {
   font-family: 'Orbitron', sans-serif; /* Fonte futurista */
@@ -29,6 +31,11 @@ header p {
   font-size: 1.2em;
 }
 
+section p {
+  font-size: 2rem;
+  font-family: "Jaro", sans-serif;
+}
+
 main {
   padding: 20px;
 }
@@ -55,6 +62,14 @@ main {
 .contact li {
   font-size: 1.2em;
   text-shadow: 0 0 5px #00ffcc;
+}
+
+img {
+  width: 15rem;
+}
+
+h2 {
+  margin: 15px 0;
 }
 
 footer {
