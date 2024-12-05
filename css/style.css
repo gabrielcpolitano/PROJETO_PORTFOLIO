@@ -4,7 +4,7 @@
 body {
   font-family: 'Orbitron', sans-serif; /* Fonte futurista */
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   padding: 0;
   background: linear-gradient(135deg, #000428, #004e92); /* Fundo gradiente estilo espaço */
   color: #ffffff;
@@ -31,9 +31,20 @@ header p {
   font-size: 1.2em;
 }
 
-section p {
+p {
   font-size: 2rem;
   font-family: "Jaro", sans-serif;
+  user-select: none;
+}
+
+section p:hover{
+  color:rgb(255, 85, 0);
+  transform: scale(1.5);
+}
+
+hr {
+  height: 5px; /* Define a espessura */
+  background-color: #007BFF; /* Cor da linha */
 }
 
 main {
