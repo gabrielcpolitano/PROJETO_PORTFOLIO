@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+:root {
+  --cor-primaria: #2C3E50;
+  --cor-secundaria: #2c3e5023;
+  --cor-fundo: #ECF0F1;
+  --cor-footer: #2c3e501b;
+  --cor-texto: #34495E;
+  --fonte-principal: 'Arial', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+
+body{
+  padding: 0;
+  font-family: "Poppins", serif;
+  color: var(--cor-texto);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+p{
+  font-size: 1.4rem;
+  margin: 1rem 8rem;
+}
+
+ul{
+  text-align: start;
+  margin: 0 5rem;
+  font-size: 1.4rem;
+}
+
+li{
+  margin-bottom: 2rem;
+}
+
+nav h1 {
+  text-align: center;
+  font-size: 2rem;
+  background-color: var(--cor-primaria);
+  padding: 0.7rem;
+  color: var(--cor-fundo);
+}
+
+main{
+  text-align: center;
+}
+
+#servicos img{
+  width: min(70%, 350px);
+}
+
+#sucesso img{
+  width: min(70%, 700px);
+  margin: 2rem 0;
+}
+
+section h1{
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.cartoes{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.moto, .cabelo{
+  border: solid;
+  margin: 1rem;
+  border-radius: 1rem 1rem 5rem 0rem;
+  background-color: var(--cor-secundaria);
+  height: 35rem;
+  transition: transform 0.3 ease;
+}
+
+.moto:hover, .cabelo:hover{
+  transform: scale(1.03);
+}
+
+
+.moto h2, .cabelo h2{
+  border: solid;
+  margin: 1rem;
+  border-radius: 1rem 1rem 5rem 0rem;
+  background-color: var(--cor-secundaria);
+}
+
+.moto p, .cabelo p{
+  border: solid;
+  width: 50%;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  
+}
+
+.cartao{
+  border: solid;
+  margin: 1rem;
+  border-radius: 1rem 5rem 5rem 1rem;
+  background-color: var(--cor-secundaria);
+}
+
+footer{
+  background-color: var(--cor-footer);
+}
+
+footer p{
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .cartoes{
+  flex-direction: column;
+  justify-content: center;
+  
+}
+    p{
+  font-size: 1.4rem;
+  margin: 1rem 2rem;
+}
+
+}
