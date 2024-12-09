@@ -6,6 +6,7 @@
   --cor-secundaria: #2c3e5023;
   --cor-fundo: #ECF0F1;
   --cor-footer: #2c3e501b;
+  --cor-logo: #1e264b;
   --cor-texto: #34495E;
   --fonte-principal: 'Arial', sans-serif;
 }
@@ -43,12 +44,26 @@ li{
   margin-bottom: 2rem;
 }
 
+header {
+  background-color: var(--cor-primaria);
+  padding: 0.5rem;
+
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+nav img {
+  width: 4rem;
+}
+
 nav h1 {
   text-align: center;
   font-size: 2rem;
-  background-color: var(--cor-primaria);
   padding: 0.7rem;
   color: var(--cor-fundo);
+  background-color: var(--cor-logo);
 }
 
 section h1{
