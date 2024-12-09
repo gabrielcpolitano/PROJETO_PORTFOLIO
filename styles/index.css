@@ -52,11 +52,11 @@ nav h1 {
 }
 
 #servicos img{
-  width: min(70%, 350px);
+  width: min(70%, 21rem);
 }
 
 #sucesso img{
-  width: min(70%, 700px);
+  width: min(90%, 50rem);
   margin: 2rem 0;
 }
 
