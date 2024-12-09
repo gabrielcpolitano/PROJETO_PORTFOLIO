@@ -56,6 +56,21 @@ section h1{
   margin: 2rem;
 }
 
+section img{
+  width: min(90%, 50rem);
+  
+}
+
+img#cliente{
+  margin: 5rem 0 2rem 0;
+}
+
+.cartao{
+  border: solid;
+  margin: 4rem 2rem;
+  border-radius: 1rem 5rem 5rem 1rem;
+  background-color: var(--cor-secundaria);
+}
 
 footer{
   background-color: var(--cor-footer);
